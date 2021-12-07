@@ -68,11 +68,11 @@ This tutorial covers the basics of unsupervised learning. In the real world, thi
 
 ### Introduction to Graph Neural Nets with JAX/jraph [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/educational/colabs/summer_schools/intro_to_graph_nets_tutorial_with_jraph.ipynb)
 
-This tutorial teaches you the fundamentals of graph neural networks, a family of architectures designed for graph learning tasks, e.g. predicting properties of chemical compounds, or predicting relationships between papers in a citation network.
+This tutorial teaches you the fundamentals of graph neural networks (GNNs), a family of architectures designed for learning on graph-structured data consisting of nodes and edges, where the edges describe relationships between the nodes. E.g. a molecule can be represented as a graph with atoms as nodes, and the chemical bonds between them as edges. Predicting chemical properties of molecules is an example applications of GNNs, along with many others, e.g. predicting relationships between papers in a citation network.
 
-We will cover the basics of graph theory, implement graph neural networks from scratch, and apply our models on three types of graph learning tasks. We will also introduce you to [jraph](https://github.com/deepmind/jraph), which is a library designed for working with graph neural networks in JAX.
+Differently from previous setups where we have seen input features in the form of a real-valued vectors (e.g. vectorised form of images), the structure of the data itself is important here, e.g. how to atoms are connected to each other in a molecule may influence its properties. GNNs allow us to take this graph structure explicitly into account during training and inference, which is something other architectures like fully-connected networks or recurrent neural networks would not be able to do.
 
-
+We will go over the basics of graph theory, code GNNs from scratch, and apply our models on three types of graph learning tasks. More specifically, we will implement two common types of GNN architectures: Graph Convolutional Networks and Graph Attention Networks.  We will also introduce you to [jraph](https://github.com/deepmind/jraph), which is a library designed for working with graph neural networks in JAX.
 
 
 ## Call for contributions
