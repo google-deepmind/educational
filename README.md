@@ -62,11 +62,11 @@ The material as a whole does not form a structured course. However, each Colab o
 
 The Colabs are written in Python and Jax, which are some of the tools we use at DeepMind. The current Colabs in this repository are:
 
-### Introduction to Unsupervised Learning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/educational/colabs/summer_schools/intro_to_unsupervised_learning.ipynb)
+### Introduction to Unsupervised Learning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/educational/blob/master/colabs/summer_schools/intro_to_unsupervised_learning.ipynb)
 
 This tutorial covers the basics of unsupervised learning. In the real world, this is the most common form of learning: where no labels or feedback are available. How then is the machine supposed to learn? The most important cost function guiding the machine is negative log likelihood (aka log-loss). We explain what it means in a gentle introduction to the probability theory (density estimation, maximum likelihood/log-loss and latent variable modelling). We show you how to build and train an autoencoder, and how to compress an image using the K−means clustering algorithm - all using only basic python commands! Lots of visualisations and exercises are included to make this journey fun.
 
-### Introduction to Graph Neural Nets with JAX/jraph [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/educational/colabs/summer_schools/intro_to_graph_nets_tutorial_with_jraph.ipynb)
+### Introduction to Graph Neural Nets with JAX/jraph [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/educational/blob/master/colabs/summer_schools/intro_to_graph_nets_tutorial_with_jraph.ipynb)
 
 This tutorial teaches you the fundamentals of graph neural networks (GNNs), a family of architectures designed for learning on graph-structured data consisting of nodes and edges, where the edges describe relationships between the nodes. E.g. a molecule can be represented as a graph with atoms as nodes, and the chemical bonds between them as edges. Predicting chemical properties of molecules is an example applications of GNNs, along with many others, e.g. predicting relationships between papers in a citation network.
 
