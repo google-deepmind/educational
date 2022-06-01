@@ -62,9 +62,14 @@ The material as a whole does not form a structured course. However, each Colab o
 
 The Colabs are written in Python and Jax, which are some of the tools we use at DeepMind. The current Colabs in this repository are:
 
+### Introduction to Supervised Learning 1 - Regression [![Open In Colab](https://colab.sandbox.google.com/assets/colab-badge.svg)](https://colab.sandbox.google.com/github/deepmind/educational/blob/master/colabs/summer_schools/intro_to_regression.ipynb)
+
+This tutorial presents a gentle and intuitive introduction to supervised learning. The tutorial is intended to be taught from the front of a class to a group of students, but could also be done individually. The student learns what a model for data is and what model parameters are, and experiences basic optimization of a loss function to fit data first-hand. We introduce automatic differentiation and Jax. The tutorial concludes with first steps toward non-linear models, underfitting, overfitting and basic regularization.
+
+
 ### Introduction to Unsupervised Learning [![Open In Colab](https://colab.sandbox.google.com/assets/colab-badge.svg)](https://colab.sandbox.google.com/github/deepmind/educational/blob/master/colabs/summer_schools/intro_to_unsupervised_learning.ipynb)
 
-This tutorial covers the basics of unsupervised learning. In the real world, this is the most common form of learning: where no labels or feedback are available. How then is the machine supposed to learn? The most important cost function guiding the machine is negative log likelihood (aka log-loss). We explain what it means in a gentle introduction to the probability theory (density estimation, maximum likelihood/log-loss and latent variable modelling). We show you how to build and train an autoencoder, and how to compress an image using the K−means clustering algorithm - all using only basic python commands! Lots of visualisations and exercises are included to make this journey fun.
+This tutorial covers the basics of unsupervised learning. In the real world, this is the most common form of learning: where no labels or feedback are available. How then is the machine supposed to learn? The most important cost function guiding the machine is negative log likelihood (aka log-loss). We explain what it means in a gentle introduction to the probability theory (density estimation, maximum likelihood/log-loss and latent variable modelling). We show you how to build and train an autoencoder, and how to compress an image using the K−means clustering algorithm - all using only basic Python commands! Lots of visualisations and exercises are included to make this journey fun.
 
 ### Introduction to Graph Neural Nets with JAX/jraph [![Open In Colab](https://colab.sandbox.google.com/assets/colab-badge.svg)](https://colab.sandbox.google.com/github/deepmind/educational/blob/master/colabs/summer_schools/intro_to_graph_nets_tutorial_with_jraph.ipynb)
 
